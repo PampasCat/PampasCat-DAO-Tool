@@ -159,7 +159,6 @@ contract Pampascat {
             depositToken.transfer(depositor, unfundedAmount);
         }
         exchangeToken.transfer(depositor, amount);
-
         emit FundingReceived(depositor, amount, unfundedAmount);
     }
 
