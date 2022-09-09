@@ -97,7 +97,6 @@ contract Pampascat {
         _;
     }
 
-
     function exchangeToDeposit(uint256 _exchangeTokens) private view returns (uint256) {
         return 0;
     }
