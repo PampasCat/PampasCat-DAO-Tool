@@ -173,5 +173,4 @@ contract Pampascat {
 
         emit DepositTokenClaimed(msg.sender, amountClaimable);
     }
-    
 }
