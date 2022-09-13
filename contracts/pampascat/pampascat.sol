@@ -58,7 +58,6 @@ contract Pampascat {
         address _depositor
     ) {
         require(_partners.length == _allocations.length, "Partners and allocations must have same length");
-
         depositToken = _depositToken;
         exchangeToken = _exchangeToken;
         //exchangeRate = _exchangeRate;
